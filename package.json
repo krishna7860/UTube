@@ -1,0 +1,10 @@
+{
+  "name": "queuetube",
+  "version": "1.0.0",
+  "description": "Video Player",
+  "main": "index.js",
+  "author": "Krishna Kant Sharma",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
