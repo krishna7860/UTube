@@ -9,8 +9,8 @@ const SEARCH = "/search";
 // Users Routes
 
 const USERS = "/users";
-const USER_PROFILE = "/:id";
 const EDIT_PROFILE = "/edit-profile";
+const USER_PROFILE = "/:id";
 const EDIT_PASSWORD = "/edit-password";
 
 // Videos Routes
