@@ -8,15 +8,18 @@ import userRouter from "./router/user";
 import videoRouter from "./router/video";
 import homeRouter from "./router/index";
 import routes from "./routes";
+import locals from "./middlewares/locals";
+
 const app = express();
 
 // Middlewares
+app.use(helmet());
 app.set("view engine", "pug");
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(helmet());
 app.use(morgan("dev"));
+app.use(locals);
 
 // Routes
 app.use(routes.home, homeRouter);
