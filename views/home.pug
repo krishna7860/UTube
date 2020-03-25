@@ -1,6 +1,9 @@
 extends layouts/main.pug
+include mixins/videoGrid
 
 block content
     div.videos
-        h1 Video
+        each video in videos
+            +videoGrid(video)
+        
         
