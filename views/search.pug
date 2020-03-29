@@ -1,5 +1,9 @@
 extends layouts/main.pug
+include mixins/videoGrid
 
 block content
     .search__header
         h3 Searching for : #{searchBy}
+    .search__videos
+        each video in videos
+            +videoGrid(video)
