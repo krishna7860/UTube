@@ -3,6 +3,6 @@ extends layouts/main.pug
 block content
     .form-container
         form(action=routes.login, method="post")
-            input(type="email", name="email", placeholder="Enter Email")
-            input(type="password", name="password", placeholder="Enter Password")
+            input(type="email", name="email", placeholder="Enter Email" required=true)
+            input(type="password", name="password", placeholder="Enter Password" required=true)
             input(type="submit", value="Login")
