@@ -1,7 +1,7 @@
 mixin videoGrid(video = {})
     .videoGrid
         a(href=routes.videoDetail(video.id))
-            video.videoGrid__thumbnail(src=video.sources[0])
+            video.videoGrid__thumbnail(src=video.fileUrl)
             h4.videoGrid__title=video.title
             p.videoGrid__description=video.description
             h6.videoGrid__views=video.views
