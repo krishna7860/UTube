@@ -141,13 +141,69 @@ body {
   height: 100%; }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #17202a;
   color: #444444;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px; }
 
 main {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   min-height: 70vh; }
+
+.header {
+  background: linear-gradient(90deg, #16222a, #3a6073, #16222a);
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+  width: 100%; }
+  .header .header__wrapper {
+    padding: 15px 0px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center; }
+    .header .header__wrapper .header__column i {
+      color: white;
+      font-size: 30px; }
+    .header .header__wrapper .header__column:nth-child(2) {
+      width: 100%;
+      justify-self: center; }
+    .header .header__wrapper .header__column:last-child {
+      justify-self: end; }
+    .header .header__wrapper .header__column ul {
+      display: flex;
+      color: white;
+      font-weight: 400;
+      text-transform: uppercase; }
+      .header .header__wrapper .header__column ul li a {
+        padding: 0.5rem;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.4); }
+      .header .header__wrapper .header__column ul li:not(:last-child) {
+        margin-right: 15px; }
+    .header .header__wrapper .header__column form {
+      width: 100%; }
+      .header .header__wrapper .header__column form input {
+        padding: 10px 10px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 14px;
+        color: white;
+        font-weight: 600;
+        max-width: none;
+        background-color: #aeb6bf; }
+        .header .header__wrapper .header__column form input::-webkit-input-placeholder {
+          font-weight: 300;
+          color: rgba(0, 0, 0, 0.7); }
+        .header .header__wrapper .header__column form input:-ms-input-placeholder {
+          font-weight: 300;
+          color: rgba(0, 0, 0, 0.7); }
+        .header .header__wrapper .header__column form input::-ms-input-placeholder {
+          font-weight: 300;
+          color: rgba(0, 0, 0, 0.7); }
+        .header .header__wrapper .header__column form input::placeholder {
+          font-weight: 300;
+          color: rgba(0, 0, 0, 0.7); }
