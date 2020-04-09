@@ -207,3 +207,119 @@ main {
         .header .header__wrapper .header__column form input::placeholder {
           font-weight: 300;
           color: rgba(0, 0, 0, 0.7); }
+
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px; }
+  .footer .footer__icon {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px; }
+  .footer .footer__text {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    text-transform: uppercase; }
+
+.form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px; }
+  .form-container form {
+    width: 100%;
+    max-width: 350px;
+    padding: 20px 20px 40px 20px;
+    border-radius: 5px;
+    background-color: #1c2833;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    margin-bottom: 25px; }
+    .form-container form:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+    .form-container form h5 {
+      font-size: 22px;
+      margin-bottom: 25px;
+      text-align: center;
+      color: white; }
+    .form-container form input {
+      padding: 10px 10px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 14px;
+      color: white;
+      font-weight: 600;
+      max-width: none;
+      background-color: #aeb6bf;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+      .form-container form input::-webkit-input-placeholder {
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.7); }
+      .form-container form input:-ms-input-placeholder {
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.7); }
+      .form-container form input::-ms-input-placeholder {
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.7); }
+      .form-container form input::placeholder {
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.7); }
+      .form-container form input:not(:last-child) {
+        margin-bottom: 25px; }
+      .form-container form input[type="submit"] {
+        background-color: #050a19;
+        padding: 15px 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+    .form-container form label {
+      font-weight: 400;
+      color: white; }
+    .form-container form textarea {
+      padding: 10px 10px;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 14px;
+      color: white;
+      font-weight: 600;
+      max-width: none;
+      height: 150px;
+      margin-bottom: 20px;
+      background-color: #aeb6bf;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+      .form-container form textarea::-webkit-input-placeholder {
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.7); }
+      .form-container form textarea:-ms-input-placeholder {
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.7); }
+      .form-container form textarea::-ms-input-placeholder {
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.7); }
+      .form-container form textarea::placeholder {
+        font-weight: 300;
+        color: rgba(0, 0, 0, 0.7); }
+  .form-container button {
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 0px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px; }
+  .form-container .social-login {
+    display: flex;
+    max-width: 350px;
+    justify-content: space-between; }
+    .form-container .social-login .social-login--github {
+      background-color: black; }
+    .form-container .social-login .social-login--facebook {
+      background-color: #3b5998; }
+    .form-container .social-login span {
+      margin: 0px 5px; }

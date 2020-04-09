@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+
+  .footer__icon {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .footer__text {
+    color: rgba($color: #fff, $alpha: 0.5);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}

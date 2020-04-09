@@ -3,6 +3,7 @@ extends layouts/main.pug
 block content
     .form-container
         form(action=routes.login, method="post")
+            h3="Login to Utube"
             input(type="email", name="email", placeholder="Enter Email" required=true)
             input(type="password", name="password", placeholder="Enter Password" required=true)
             input(type="submit", value="Login")
